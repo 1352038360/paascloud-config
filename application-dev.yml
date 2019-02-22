@@ -24,7 +24,7 @@ spring:
     timeout: 0
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url=jdbc: mysql://localhost:3306/paascloud_uac?characterEncoding=utf8&useSSL=false
+    url:jdbc: mysql://localhost:3306/paascloud_uac?characterEncoding=utf8&useSSL=false
     filters: stat,wall
     druid:
       initial-size: 50
